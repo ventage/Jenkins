@@ -11,7 +11,7 @@ ENV PATH "$PATH:$JAVA_HOME/bin:$M2_HOME/bin"
 
 RUN apt update
 #RUN apt-get install -y apt-transport-https
-RUN apt-get install default-jdk git -y
+RUN apt-get install openjdk-8-jdk git -y
 #RUN apt-get update && apt-get install maven -y
 RUN git config --global http.sslVerify false
 
