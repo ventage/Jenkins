@@ -1,5 +1,5 @@
 FROM ubuntu
-MAINTAINER Jeganathan Swaminathan <jegan@tektutor.org>
+MAINTAINER Kirill A. <uskirill@gmail.com>
 
 ENV http_proxy http://192.168.101.52:8080
 ENV https_proxy http://192.168.101.52:8080
