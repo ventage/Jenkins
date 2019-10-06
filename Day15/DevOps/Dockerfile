@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu:latest
 MAINTAINER Kirill A. <uskirill@gmail.com>
 
 ENV http_proxy http://192.168.101.52:8080
