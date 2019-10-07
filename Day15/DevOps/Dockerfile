@@ -3,7 +3,7 @@ MAINTAINER Kirill A <uskirill@gmail.com>
 
 ENV HTTP_PROXY http://192.168.101.52:8080
 ENV HTTPS_PROXY http://192.168.101.52.8080
-ENV NO_PROXY localhost,127.0.1,10.236.52.196
+ENV NO_PROXY localhost,127.0.1,10.236.52.196,1270.0.0/24
 
 ENV JAVA  /usr/lib/jvm/java-11-openjdk-amd64
 ENV M2_HOME /root/apache-maven-3.6.1
