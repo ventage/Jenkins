@@ -18,6 +18,7 @@ ENV PATH "$PATH:$JAVA_HOME/bin:$M2_HOME/bin"
 
 #RUN apt update --fix-missing && apt-get install default-jdk git -y
 RUN apt update --fix-missing
+RUN apt-get install default-jdk -y
 #RUN apt-get update && apt-get install maven -y
 
 #COPY apache-maven-3.6.1-bin.tar.gz /root/apache-maven-3.6.1-bin.tar.gz
